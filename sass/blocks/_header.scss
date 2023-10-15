@@ -1,0 +1,42 @@
+// MOBILE STYLES
+
+.logo {
+  color: #383838;
+
+  font-family: Syne;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.64px;
+}
+
+.nav {
+  display: none;
+}
+
+// DESKTOP STYLES
+
+// .nav {
+//   display: flex;
+//   justify-content: space-between;
+//   font-size: 20px;
+//   font-size: normal;
+//   font-weight: 400;
+//   margin-top: 20px;
+
+//   &__list {
+//     display: flex;
+//     align-items: center;
+//   }
+
+//   &__item:not(:last-of-type) {
+//     padding-right: 40px;
+//   }
+// }
+
+// .logo {
+//   font-family: "syne";
+//   font-size: 36px;
+//   font-weight: 500;
+// }

@@ -1,0 +1,45 @@
+// MOBILE STYLES //
+
+.works__item {
+  margin-bottom: 30px;
+}
+
+.works__text {
+  color: var(--black, #383838);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.works__img {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+// DESKTOP STYLES //
+
+// .works {
+//   &__list {
+//     display: flex;
+//     justify-content: space-between;
+//     margin-top: 100px;
+//   }
+
+//   &__text {
+//     color: var(--black, #383838);
+//     /* font-family: DM Sans;
+//   font-size: 32px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal; */
+//   }
+
+//   &__img {
+//     /* width: 400px;
+//   height: 400px; */
+//     margin-top: 16px;
+//     margin-bottom: 16px;
+//   }
+// }

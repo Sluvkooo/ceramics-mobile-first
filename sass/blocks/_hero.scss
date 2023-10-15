@@ -1,0 +1,101 @@
+// MOBILE STYLES
+
+.h1-wrapper {
+  color: var(--black, #383838);
+  text-align: center;
+  font-family: Syne;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 4.4px;
+  margin-bottom: 40px;
+}
+
+.hero__text {
+  color: var(--black, #383838);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 40px;
+}
+
+.sign-up-link {
+  color: #f6f6f6;
+  background-color: #383838;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: auto;
+}
+
+.hero__img--vase {
+  display: none;
+}
+
+// DESKTOP STYLES //
+
+// .h1-wrapper {
+//   display: flex;
+//   height: 150px;
+//   justify-content: center;
+//   align-items: flex-end;
+//   color: #383838;
+//   text-align: center;
+//   font-family: Syne;
+//   font-size: 88px;
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: normal;
+//   letter-spacing: 9.68px;
+// }
+
+// .hero {
+//   display: flex;
+//   justify-content: space-between;
+//   margin-top: 44px;
+
+//   &__text {
+//     display: block;
+//     width: 420px;
+//     color: #383838;
+//     font-family: DM Sans;
+//     font-size: 24px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: normal;
+//   }
+
+//   &__img--vase {
+//     width: 525px;
+//     height: 346px;
+//     margin-top: 76px;
+//   }
+// }
+
+// .sign-up-link {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   font-family: "DM Sans";
+//   font-size: 24px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+//   margin-top: 24px;
+//   width: 130px;
+//   height: 130px;
+//   color: #f6f6f6;
+//   background-color: #383838;
+//   border-radius: 50%;
+// }
