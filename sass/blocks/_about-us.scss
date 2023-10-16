@@ -1,49 +1,51 @@
 // MOBILE STYLES //
 
-.about-us__text {
-  color: var(--black, #383838);
-  font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-bottom: 20px;
-}
+@media screen and (max-width: 425px) {
+  .about-us__text {
+    color: var(--black, #383838);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
 
-.about-us__text--small {
-  color: var(--black, #383838);
-  text-align: right;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
+  .about-us__text--small {
+    color: var(--black, #383838);
+    text-align: right;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 
-.about-us__list {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
+  .about-us__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
 
-.about-us__number {
-  color: var(--black, #383838);
-  text-align: center;
-  font-family: Syne;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 3.52px;
-}
+  .about-us__number {
+    color: var(--black, #383838);
+    text-align: center;
+    font-family: Syne;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.52px;
+  }
 
-.about-us__advantages {
-  color: var(--black, #383838);
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
+  .about-us__advantages {
+    color: var(--black, #383838);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 }
 
 // DESKTOP STYLES //

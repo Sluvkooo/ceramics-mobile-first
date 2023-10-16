@@ -1,24 +1,13 @@
 // MOBILE STYLES //
 
-.invite-bg {
-  height: 844px;
-  width: 100%;
-  background-image: url(/img/invite-bg.jpg);
-}
-
-.invite__text {
-  color: var(--WHITE, #f4f4f4);
-  font-family: DM Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.invite-form {
-  margin-top: 72px;
-
-  &__title {
+@media screen and (max-width: 425px) {
+  .invite-bg {
+    height: 844px;
+    width: 100%;
+    background-image: url(/img/invite-bg.jpg);
+  }
+  
+  .invite__text {
     color: var(--WHITE, #f4f4f4);
     font-family: DM Sans;
     font-size: 18px;
@@ -26,42 +15,57 @@
     font-weight: 400;
     line-height: normal;
   }
-
-  &__input {
-    color: #f4f4f4;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 100%;
-    height: 61px;
-    background-color: transparent;
-    border: 1px solid var(--WHITE, #f4f4f4);
-    outline: none;
-    padding-left: 12px;
-  }
-
-  &__input::placeholder {
-    color: #afabab;
-  }
-
-  &__btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 66px;
-    color: var(--black, #383838);
-    font-family: DM Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 40px;
-    opacity: 0.8;
+  
+  .invite-form {
+    margin-top: 72px;
+  
+    &__title {
+      color: var(--WHITE, #f4f4f4);
+      font-family: DM Sans;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  
+    &__input {
+      color: #f4f4f4;
+      font-family: DM Sans;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      width: 100%;
+      height: 61px;
+      background-color: transparent;
+      border: 1px solid var(--WHITE, #f4f4f4);
+      outline: none;
+      padding-left: 12px;
+    }
+  
+    &__input::placeholder {
+      color: #afabab;
+    }
+  
+    &__btn {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 66px;
+      color: var(--black, #383838);
+      font-family: DM Sans;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 40px;
+      opacity: 0.8;
+    }
   }
 }
+
+
 
 // DESKTOP STYLES //
 

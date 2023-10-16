@@ -1,41 +1,32 @@
 // MOBILE STYLES //
 
-.questions__item {
-  display: flex;
-  align-items: baseline;
-  // position: relative;
-  margin-bottom: 30px;
-}
+@media screen and (max-width: 425px) {
+  .questions__item {
+    display: flex;
+    align-items: baseline;
+    margin-top: 30px;
+  }
 
-// .questions__item::after {
-//   content: "";
-//   position: absolute;
-//   top: 50px;
-//   display: block;
-// width: 100%;
-//   height: 2px;
-//   background-color: #383838;
-// }
+  .questions__numbers {
+    color: var(--black, #383838);
+    font-family: Syne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.64px;
+    margin-right: 8px;
+  }
 
-.questions__numbers {
-  color: var(--black, #383838);
-  font-family: Syne;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.64px;
-  margin-right: 8px;
-}
-
-.questions__text {
-  color: var(--black, #383838);
-  font-family: DM Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-right: auto;
+  .questions__text {
+    color: var(--black, #383838);
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: auto;
+  }
 }
 
 // DESKTOP STYLES //

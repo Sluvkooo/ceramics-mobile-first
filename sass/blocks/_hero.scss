@@ -1,47 +1,79 @@
 // MOBILE STYLES
 
-.h1-wrapper {
-  color: var(--black, #383838);
-  text-align: center;
-  font-family: Syne;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 4.4px;
-  margin-bottom: 40px;
+@media screen and (max-width: 425px) {
+  .h1-wrapper {
+    color: var(--black, #383838);
+    text-align: center;
+    font-family: Syne;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.4px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .hero {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .hero__text {
+    color: var(--black, #383838);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+  }
+
+  .sign-up-link {
+    color: #f6f6f6;
+    background-color: #383838;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    margin-left: auto;
+  }
+
+  .hero__img--vase {
+    display: none;
+  }
 }
 
-.hero__text {
-  color: var(--black, #383838);
-  font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: 40px;
-}
+// TABLET STYLES //
 
-.sign-up-link {
-  color: #f6f6f6;
-  background-color: #383838;
-  display: block;
-  text-align: center;
-  padding-top: 3px;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  font-family: DM Sans;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-left: auto;
-}
-
-.hero__img--vase {
-  display: none;
-}
+// @media screen and (min-width: 426px) and (max-width: 768px) {
+//   .h1-wrapper {
+//     color: var(--black, #383838);
+//     font-family: Syne;
+//     font-size: 52px;
+//     font-style: normal;
+//     font-weight: 700;
+//     line-height: normal;
+//     letter-spacing: 4.4px;
+//     margin-top: 50px;
+//     margin-bottom: 40px;
+//     width: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     text-align: center;
+//   }
+// }
 
 // DESKTOP STYLES //
 

@@ -1,41 +1,41 @@
 // MOBILE STYLES //
 
-.place {
-  height: 273px;
-  background-image: url(/img/place-bg.jpg);
-  background-size: cover;
+@media screen and (max-width: 425px) {
+  .place {
+    height: 273px;
+    background-image: url(/img/place-bg.jpg);
+    background-size: cover;
+  }
+
+  .place__title {
+    color: var(--WHITE, #f4f4f4);
+    font-family: Syne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.64px;
+  }
+
+  .place__title--2nd-str {
+    text-align: center;
+  }
+
+  .place__title--3rd-str {
+    text-align: right;
+  }
+
+  .place__text {
+    color: var(--WHITE, #f4f4f4);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 80px;
+  }
 }
 
-.place__title {
-  color: var(--WHITE, #f4f4f4);
-  font-family: Syne;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.64px;
-}
-
-.place__title--1st-str {
-}
-
-.place__title--2nd-str {
-  text-align: center;
-}
-
-.place__title--3rd-str {
-  text-align: right;
-}
-
-.place__text {
-  color: var(--WHITE, #f4f4f4);
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: 80px;
-}
 // DESKTOP STYLES //
 
 // .place {

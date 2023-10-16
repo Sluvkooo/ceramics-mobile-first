@@ -1,48 +1,53 @@
 // MOBILE STYLES //
 
-.contacts {
-  position: relative;
+@media screen and (max-width: 425px) {
+  .contacts {
+    position: relative;
+    padding-right: 60px;
+  }
+  
+  .contacts__text {
+    color: var(--black, #383838);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+  }
+  
+  .contacts__text--bold {
+    font-weight: 500;
+  }
+  
+  .svg-tiktok {
+    width: 30px;
+    height: 30px;
+    background-color: #383838;
+    border-radius: 50%;
+    position: absolute;
+    top: 96px;
+    right: 15px;
+  }
+  
+  .svg-instagram {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 146px;
+    right: 15px;
+  }
+  
+  .svg-facebook {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 196px;
+    right: 15px;
+  }
 }
 
-.contacts__text {
-  color: var(--black, #383838);
-  font-family: DM Sans;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-bottom: 40px;
-}
 
-.contacts__text--bold {
-  font-weight: 500;
-}
-
-.svg-tiktok {
-  width: 30px;
-  height: 30px;
-  background-color: #383838;
-  border-radius: 50%;
-  position: absolute;
-  top: 96px;
-  right: 15px;
-}
-
-.svg-instagram {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 146px;
-  right: 15px;
-}
-
-.svg-facebook {
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 196px;
-  right: 15px;
-}
 
 
 
