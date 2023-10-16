@@ -4,16 +4,18 @@ html {
 
 // MOBILE STYLES //
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1239px) {
   .container {
     width: 100%;
   }
 
   .section {
     min-width: 320px;
-    margin-top: 80px;
+    max-width: 600px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px 20px;
-    
   }
 
   .title {
@@ -36,65 +38,52 @@ html {
   }
 }
 
-// TABLET STYLES //
-
-// @media screen and (min-width: 426px) and (max-width: 768px) {
-  
-//   // .container {
-//   //   width: 100%;
-//   // }
-
-//   section {
-//     width: 426px;
-//     margin-left: auto;
-//     margin-right: auto;
-//   }
-// }
-
 // DESKTOP STYLES //
 
-// .flex {
-//   display: flex;
-// }
+@media screen and (min-width: 1240px) {
+  .flex {
+    display: flex;
+  }
 
-// .flex--column {
-//   display: flex;
-//   flex-direction: column;
-// }
+  .flex--column {
+    display: flex;
+    flex-direction: column;
+  }
 
-// .container {
-//   min-width: 320px;
-//   margin-left: auto;
-//   margin-right: auto;
-// }
+  .container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-// .section {
-//   margin-top: 140px;
-// }
+  .section {
+    margin-top: 140px;
+  }
 
-// .title {
-//   color: #383838;
-//   font-family: Syne;
-//   font-size: 70px;
-//   font-style: normal;
-//   font-weight: 700;
-//   line-height: normal;
-//   letter-spacing: 7.7px;
-// }
+  .title {
+    color: #383838;
+    font-family: Syne;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.7px;
+  }
 
-// .title--white {
-//   color: #f4f4f4;
-// }
+  .title--white {
+    color: #f4f4f4;
+  }
 
-// .to-top-btn {
-//   position: fixed;
-//   right: 10px;
-//   bottom: 20px;
-//   background-color: #383838;
-//   padding: 10px 13px;
-//   border: 1px solid #ffffff44;
-//   border-radius: 50%;
-//   color: #fff;
-//   text-decoration: none;
-//   opacity: 0.8;
-// }
+  .to-top-btn {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    background-color: #383838;
+    padding: 10px 13px;
+    border: 1px solid #ffffff44;
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+}

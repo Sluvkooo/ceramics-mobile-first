@@ -1,12 +1,12 @@
 // MOBILE STYLES //
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1239px) {
   .invite-bg {
     height: 844px;
     width: 100%;
     background-image: url(/img/invite-bg.jpg);
   }
-  
+
   .invite__text {
     color: var(--WHITE, #f4f4f4);
     font-family: DM Sans;
@@ -15,10 +15,10 @@
     font-weight: 400;
     line-height: normal;
   }
-  
+
   .invite-form {
     margin-top: 72px;
-  
+
     &__title {
       color: var(--WHITE, #f4f4f4);
       font-family: DM Sans;
@@ -27,7 +27,7 @@
       font-weight: 400;
       line-height: normal;
     }
-  
+
     &__input {
       color: #f4f4f4;
       font-family: DM Sans;
@@ -42,11 +42,11 @@
       outline: none;
       padding-left: 12px;
     }
-  
+
     &__input::placeholder {
       color: #afabab;
     }
-  
+
     &__btn {
       display: inline-flex;
       justify-content: center;
@@ -65,80 +65,84 @@
   }
 }
 
-
-
 // DESKTOP STYLES //
 
-// .invite-bg {
-//   height: 980px;
-//   width: 100%;
-//   background-image: url(/img/invite-bg.jpg);
-//   background-size: 100% auto;
-//   background-repeat: no-repeat;
-// }
+@media screen and (min-width: 1240px) {
+  .invite-bg {
+    height: 980px;
+    width: 100%;
+    background-image: url(/img/invite-bg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
 
-// .invite {
-//   height: 980px;
+  .invite {
+    height: 980px;
 
-//   &__position {
-//     padding-top: 100px;
-//     padding-left: 100px;
-//     padding-bottom: 120px;
-//     display: flex;
-//     flex-direction: column;
-//   }
+    &__position {
+      padding-top: 100px;
+      padding-left: 100px;
+      padding-bottom: 120px;
+      display: flex;
+      flex-direction: column;
+    }
 
-//   &__text {
-//     color: var(--WHITE, #f4f4f4);
-//     font-family: DM Sans;
-//     font-size: 32px;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: normal;
-//     margin-top: 40px;
-//   }
-// }
+    &__text {
+      color: var(--WHITE, #f4f4f4);
+      font-family: DM Sans;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 40px;
+    }
+  }
 
-// .invite-form {
-//   margin-top: 40px;
-//   margin-left: auto;
+  .invite-form {
+    margin-top: 40px;
+    margin-left: auto;
 
-//   &__title {
-//     color: var(--WHITE, #f4f4f4);
-//     font-family: DM Sans;
-//     font-size: 32px;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: normal;
-//   }
+    &__title {
+      color: var(--WHITE, #f4f4f4);
+      font-family: DM Sans;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      display: inline-block;
+      margin-top: 32px;
+    }
 
-//   &__input {
-//     color: #afabab;
-//     font-family: DM Sans;
-//     font-size: 24px;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: normal;
-//     width: 400px;
-//     height: 79px;
-//     background-color: transparent;
-//     border: 1px solid var(--WHITE, #f4f4f4);
-//     outline: none;
-//     padding-left: 20px;
-//   }
+    &__input {
+      color: #afabab;
+      font-family: DM Sans;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      width: 400px;
+      height: 79px;
+      background-color: transparent;
+      border: 1px solid var(--WHITE, #f4f4f4);
+      outline: none;
+      padding-left: 20px;
+      
+    }
 
-//   &__input::placeholder {
-//     color: #afabab;
-//   }
+    &__input::placeholder {
+      color: #afabab;
+    }
 
-//   &__btn {
-//     display: inline-flex;
-//     justify-content: center;
-//     align-items: center;
-//     width: 400px;
-//     height: 82px;
-//     color: #383838;
-//     font-family: DM Sans;
-//     font-size: 26px;
-//   }
-// }
+    &__btn {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      height: 82px;
+      color: #383838;
+      opacity: 0.8;
+      font-family: DM Sans;
+      font-size: 26px;
+    }
+  }
+}

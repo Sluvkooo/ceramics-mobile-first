@@ -1,6 +1,6 @@
 // MOBILE STYLES //
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1239px) {
   .about-us__text {
     color: var(--black, #383838);
     font-family: DM Sans;
@@ -50,66 +50,68 @@
 
 // DESKTOP STYLES //
 
-// .about-us {
-//   &__content {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//   }
+@media screen and (min-width: 1240px) {
+  .about-us {
+    &__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-//   &__text {
-//     display: block;
-//     width: 525px;
-//     height: 530px;
-//     margin-top: 72px;
-//     color: #383838;
-//     font-family: DM Sans;
-//     font-size: 32px;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: normal;
-//   }
+    &__text {
+      display: block;
+      width: 525px;
+      height: 530px;
+      margin-top: 72px;
+      color: #383838;
+      font-family: DM Sans;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
 
-//   &__text--small {
-//     padding-bottom: 20px;
-//     color: #383838;
-//     text-align: right;
-//     font-family: DM Sans;
-//     font-size: 24px;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: normal;
-//   }
+    &__text--small {
+      padding-bottom: 20px;
+      color: #383838;
+      text-align: right;
+      font-family: DM Sans;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
 
-//   &__img {
-//     width: 630px;
-//     height: 562px;
-//   }
+    &__img {
+      width: 630px;
+      height: 562px;
+    }
 
-//   &__list {
-//     display: flex;
-//     justify-content: space-around;
-//     margin-top: 100px;
-//   }
+    &__list {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 100px;
+    }
 
-//   &__number {
-//     color: #383838;
-//     text-align: center;
-//     font-family: Syne;
-//     font-size: 70px;
-//     font-style: normal;
-//     font-weight: 700;
-//     line-height: normal;
-//     letter-spacing: 7.7px;
-//   }
+    &__number {
+      color: #383838;
+      text-align: center;
+      font-family: Syne;
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 7.7px;
+    }
 
-//   &__advantages {
-//     color: var(--black, #383838);
-//     font-family: DM Sans;
-//     font-size: 24px;
-//     font-style: normal;
-//     font-weight: 700;
-//     line-height: normal;
-//     margin-top: 16px;
-//   }
-// }
+    &__advantages {
+      color: var(--black, #383838);
+      font-family: DM Sans;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: 16px;
+    }
+  }
+}

@@ -1,11 +1,11 @@
 // MOBILE STYLES //
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1239px) {
   .contacts {
     position: relative;
     padding-right: 60px;
   }
-  
+
   .contacts__text {
     color: var(--black, #383838);
     font-family: DM Sans;
@@ -15,11 +15,11 @@
     line-height: normal;
     margin-bottom: 40px;
   }
-  
+
   .contacts__text--bold {
     font-weight: 500;
   }
-  
+
   .svg-tiktok {
     width: 30px;
     height: 30px;
@@ -29,7 +29,7 @@
     top: 96px;
     right: 15px;
   }
-  
+
   .svg-instagram {
     width: 30px;
     height: 30px;
@@ -37,7 +37,7 @@
     top: 146px;
     right: 15px;
   }
-  
+
   .svg-facebook {
     width: 30px;
     height: 30px;
@@ -47,62 +47,60 @@
   }
 }
 
-
-
-
-
 // DESKTOP STYLES //
 
-// .contacts {
-//   display: flex;
-//   flex-direction: column;
-//   position: relative;
+@media screen and (min-width: 1240px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    position: relative;
 
-//   &__text {
-//     color: var(--black, #383838);
-//     font-family: DM Sans;
-//     font-size: 32px;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: normal;
-//     /* margin-top: 20px; */
-//     margin-left: auto;
-//     margin-right: auto;
-//     width: 505px;
-//     margin-bottom: 20px;
-//     margin-top: 20px;
-//   }
+    &__text {
+      color: var(--black, #383838);
+      font-family: DM Sans;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      /* margin-top: 20px; */
+      margin-left: auto;
+      margin-right: auto;
+      width: 505px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
 
-//   &__text--bold {
-//     font-weight: 500;
-//     display: block;
+    &__text--bold {
+      font-weight: 500;
+      display: block;
 
-//     /* margin-bottom: 20px; */
-//   }
-// }
+      /* margin-bottom: 20px; */
+    }
+  }
 
-// .svg-instagram {
-//   width: 40px;
-//   height: 40px;
-//   position: absolute;
-//   top: 200px;
-//   right: 0;
-// }
+  .svg-instagram {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+  }
 
-// .svg-facebook {
-//   width: 40px;
-//   height: 40px;
-//   position: absolute;
-//   top: 280px;
-//   right: 0;
-// }
+  .svg-facebook {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 280px;
+    right: 0;
+  }
 
-// .svg-tiktok {
-//   width: 40px;
-//   height: 40px;
-//   background-color: #383838;
-//   border-radius: 50%;
-//   position: absolute;
-//   top: 120px;
-//   right: 0;
-// }
+  .svg-tiktok {
+    width: 40px;
+    height: 40px;
+    background-color: #383838;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    right: 0;
+  }
+}

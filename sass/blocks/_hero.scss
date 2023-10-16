@@ -1,6 +1,14 @@
 // MOBILE STYLES
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1239px) {
+  .hero-section {
+    min-width: 320px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+  }
+
   .h1-wrapper {
     color: var(--black, #383838);
     text-align: center;
@@ -10,15 +18,8 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 4.4px;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .hero {
-    padding-left: 15px;
-    padding-right: 15px;
   }
 
   .hero__text {
@@ -34,19 +35,49 @@
   .sign-up-link {
     color: #f6f6f6;
     background-color: #383838;
-    display: block;
-    text-align: center;
-    padding-top: 3px;
-    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
     height: 70px;
-    border-radius: 50%;
     font-family: DM Sans;
-    font-size: 24px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-top: 10px;
     margin-left: auto;
+    margin-right: auto;
+    /*Скруглені кути*/
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px; 
+    /*Градієнт*/
+    background-image: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.2)
+    );
+    background-image: -moz-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.2)
+    );
+    background-image: -o-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.2)
+    );
+    background-image: -ms-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.2)
+    );
+    background-image: linear-gradient(
+      top,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.2)
+    );
   }
 
   .hero__img--vase {
@@ -54,80 +85,65 @@
   }
 }
 
-// TABLET STYLES //
-
-// @media screen and (min-width: 426px) and (max-width: 768px) {
-//   .h1-wrapper {
-//     color: var(--black, #383838);
-//     font-family: Syne;
-//     font-size: 52px;
-//     font-style: normal;
-//     font-weight: 700;
-//     line-height: normal;
-//     letter-spacing: 4.4px;
-//     margin-top: 50px;
-//     margin-bottom: 40px;
-//     width: 100%;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     text-align: center;
-//   }
-// }
-
 // DESKTOP STYLES //
 
-// .h1-wrapper {
-//   display: flex;
-//   height: 150px;
-//   justify-content: center;
-//   align-items: flex-end;
-//   color: #383838;
-//   text-align: center;
-//   font-family: Syne;
-//   font-size: 88px;
-//   font-style: normal;
-//   font-weight: 700;
-//   line-height: normal;
-//   letter-spacing: 9.68px;
-// }
+@media screen and (min-width: 1240px) {
 
-// .hero {
-//   display: flex;
-//   justify-content: space-between;
-//   margin-top: 44px;
+  .h1-wrapper {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: flex-end;
+    color: #383838;
+    text-align: center;
+    font-family: Syne;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 9.68px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+  
+    &__text {
+      display: block;
+      width: 420px;
+      color: #383838;
+      font-family: DM Sans;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  
+    &__img--vase {
+      width: 525px;
+      height: 346px;
+      margin-top: 76px;
+    }
+  }
+  
+  .sign-up-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+    width: 130px;
+    height: 130px;
+    color: #f6f6f6;
+    background-color: #383838;
+    border-radius: 50%;
+  }
 
-//   &__text {
-//     display: block;
-//     width: 420px;
-//     color: #383838;
-//     font-family: DM Sans;
-//     font-size: 24px;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: normal;
-//   }
+}
 
-//   &__img--vase {
-//     width: 525px;
-//     height: 346px;
-//     margin-top: 76px;
-//   }
-// }
 
-// .sign-up-link {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   font-family: "DM Sans";
-//   font-size: 24px;
-//   font-style: normal;
-//   font-weight: 400;
-//   line-height: normal;
-//   margin-top: 24px;
-//   width: 130px;
-//   height: 130px;
-//   color: #f6f6f6;
-//   background-color: #383838;
-//   border-radius: 50%;
-// }

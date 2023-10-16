@@ -1,6 +1,6 @@
 // MOBILE STYLES //
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1239px) {
   .place {
     height: 273px;
     background-image: url(/img/place-bg.jpg);
@@ -38,36 +38,38 @@
 
 // DESKTOP STYLES //
 
-// .place {
-//   height: 885px;
-//   background-image: url(/img/place-bg.jpg);
+@media screen and (min-width: 1240px) {
+  .place {
+    height: 885px;
+    background-image: url(/img/place-bg.jpg);
 
-//   &__title {
-//     color: var(--WHITE, #f4f4f4);
-//     font-family: Syne;
-//     font-size: 70px;
-//     font-style: normal;
-//     font-weight: 700;
-//     line-height: normal;
-//     letter-spacing: 7.7px;
-//   }
+    &__title {
+      color: var(--WHITE, #f4f4f4);
+      font-family: Syne;
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 7.7px;
+    }
 
-//   &__title--1st-str {
-//     display: inline-block;
-//     margin-top: 100px;
-//     margin-left: 100px;
-//   }
-//   &__title--2nd-str {
-//     margin-left: 310px;
-//   }
-//   &__title--3rd-str {
-//     margin-left: 700px;
-//   }
-//   &__text {
-//     display: inline-block;
-//     margin-top: 250px;
-//     margin-left: 100px;
-//     color: var(--WHITE, #f4f4f4);
-//     font-size: 32px;
-//   }
-// }
+    &__title--1st-str {
+      display: inline-block;
+      margin-top: 100px;
+      margin-left: 100px;
+    }
+    &__title--2nd-str {
+      margin-left: 310px;
+    }
+    &__title--3rd-str {
+      margin-left: 700px;
+    }
+    &__text {
+      display: inline-block;
+      margin-top: 250px;
+      margin-left: 100px;
+      color: var(--WHITE, #f4f4f4);
+      font-size: 32px;
+    }
+  }
+}
