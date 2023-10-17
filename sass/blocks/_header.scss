@@ -4,12 +4,15 @@
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    position: relative;
   }
 
   .header--container {
-    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .logo {
@@ -21,17 +24,75 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: 2.64px;
-    
+  }
+
+  .menu-button {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    & .cross-svg {
+      display: none;
+    }
+
+    &.is-open .cross-svg {
+      display: block;
+    }
+
+    &.is-open .burger-svg {
+      display: none;
+    }
+  }
+
+  .cross-svg {
+    stroke: #383838;
+  }
+
+  .burger-svg {
+    stroke: #383838;
   }
 
   .nav {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+
+    &.is-open {
+      display: block;
+    }
+
+    &__item {
+      color: var(--black, #383838);
+      font-family: DM Sans;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
   }
 }
 
 // DESKTOP STYLES
 
 @media screen and (min-width: 1240px) {
+
+  .menu-button {
+    display: none;
+  }
+
+  .menu-svg {
+    display: none;
+  }
+
   .nav {
     display: flex;
     justify-content: space-between;

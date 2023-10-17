@@ -10,7 +10,29 @@
     <header class="header">
       <div class="header--container container">
         <a href="index.html" class="logo">CERAMICS</a>
-        <nav class="nav">
+        <button
+          class="menu-button"
+          type="button"
+          data-menu-button
+          aria-expanded="false"
+          aria-controls="nav"
+        >
+          <svg class="menu-svg" width="100%" height="100%" aria-label="mobile menu button">
+            <use
+              class="cross-svg"
+              href="./img/sprite.svg#cross-svg"
+              width="100%"
+              height="100%"
+            ></use>
+            <use
+              class="burger-svg"
+              href="./img/sprite.svg#burger-svg"
+              width="100%"
+              height="100%"
+            ></use>
+          </svg>
+        </button>
+        <nav class="nav" id="nav" data-menu>
           <ul class="nav__list">
             <li class="nav__item">
               <a href="#about">ABOUT US</a>
@@ -208,7 +230,11 @@
               </li>
             </ul>
           </div>
-          <img class="mobile-close-up-img" src="./img/close-up-hand-holding-brush_23-2148878510 1.jpg" alt="">
+          <img
+            class="mobile-close-up-img"
+            src="./img/close-up-hand-holding-brush_23-2148878510 1.jpg"
+            alt=""
+          />
         </div>
       </div>
       <div class="container" id="questions">
@@ -227,16 +253,12 @@
             </li>
             <li class="questions__item">
               <span class="questions__numbers">03</span>
-              <p class="questions__text">
-                Should I put the item in the oven?
-              </p>
+              <p class="questions__text">Should I put the item in the oven?</p>
               <img class="down-arrow-svg" src="./img/Group 57.svg" alt="" />
             </li>
             <li class="questions__item">
               <span class="questions__numbers">04</span>
-              <p class="questions__text">
-                Can I take the produced dishes?
-              </p>
+              <p class="questions__text">Can I take the produced dishes?</p>
               <img class="down-arrow-svg" src="./img/Group 57.svg" alt="" />
             </li>
             <li class="questions__item">
@@ -326,10 +348,11 @@
     <footer>
       <div class="footer-wrapper">
         <div class="footer container">
-          <a class="footer__logo" href="index.html"> CERAMICS
-             <br>
-          <span class="footer__est" >est. 2019</span> 
-            </a>
+          <a class="footer__logo" href="index.html">
+            CERAMICS
+            <br />
+            <span class="footer__est">est. 2019</span>
+          </a>
           <ul class="footer__nav">
             <li class="footer__item">ABOUT</li>
             <li class="footer__item">PLACE FOR</li>
@@ -344,5 +367,7 @@
       </div>
       <!-- <a href="#top" class="to-top-btn">UP</a> -->
     </footer>
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>
