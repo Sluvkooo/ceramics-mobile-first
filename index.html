@@ -284,7 +284,6 @@
               </p>
               <form
                 class="invite-form"
-                action="https://www.w3schools.com/action_page.php"
               >
                 <span class="invite-form__title"> NAME: </span>
                 <br />
@@ -305,11 +304,23 @@
                 />
                 <br /><br />
                 <input
+                  id="myBtn"
                   class="invite-form__btn"
                   type="submit"
                   value="Send an application"
                 />
               </form>
+            </div>
+            <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 class="title title--white">Thank you!</h2>
+                <p class="modal-text">We promise you to spend quality and comfortable time and create beauty</p>
+                <p class="modal-by-line">With love, the ceramics team </p>
+              </div>
+            
             </div>
           </div>
         </div>
@@ -369,5 +380,6 @@
     </footer>
 
     <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

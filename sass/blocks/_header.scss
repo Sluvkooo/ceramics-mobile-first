@@ -34,6 +34,7 @@
     padding: 0;
     border: none;
     background-color: transparent;
+    
 
     & .cross-svg {
       display: none;
@@ -68,6 +69,7 @@
 
     &.is-open {
       display: block;
+      
     }
 
     &__item {
@@ -77,6 +79,7 @@
       font-style: normal;
       font-weight: 500;
       line-height: normal;
+      
     }
   }
 }
